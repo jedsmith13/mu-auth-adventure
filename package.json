@@ -1,0 +1,37 @@
+{
+  "name": "mu-auth-adventure",
+  "version": "1.0.0",
+  "description": "A layer for micro-service based apps which validates  user authentication and retrieves authorization intformation using Stormpath.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-stormpath": "^3.1.8",
+    "stormpath": "^0.19.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "mock-req": "^0.2.0",
+    "mock-res": "^0.3.3",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedsmith13/mu-auth-adventure.git"
+  },
+  "keywords": [
+    "micro-service",
+    "stormpath",
+    "user",
+    "auth"
+  ],
+  "author": "Jedediah Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedsmith13/mu-auth-adventure/issues"
+  },
+  "homepage": "https://github.com/jedsmith13/mu-auth-adventure#readme"
+}
