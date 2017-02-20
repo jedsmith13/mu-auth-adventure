@@ -1,8 +1,9 @@
-var express = require('express');
-var stormpath = require('express-stormpath');
-var customRoutes = require('./custom-routes');
+'use strict';
 
-var app = express();
+const stormpath = require('express-stormpath');
+const customRoutes = require('./custom-routes');
+
+let app = express();
 
 app.use(stormpath.init(app));
 

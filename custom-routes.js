@@ -1,3 +1,5 @@
+'use strict';
+
 var http = require('http');
 var configRoutes = require('./config-routes');
 
